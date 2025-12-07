@@ -117,7 +117,7 @@ class SubCategoryDetailSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = SubCategory
-        fields = ['id','sub_category_name', ]
+        fields = ['id','sub_category_name', 'product']
 
 
 class ReviewSerializer(serializers.ModelSerializer):
