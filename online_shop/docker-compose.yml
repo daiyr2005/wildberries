@@ -15,7 +15,7 @@ services:
     depends_on:
       - db
 
-  pg_db:
+  db:
     image: postgres:17
     restart: always
     environment:
