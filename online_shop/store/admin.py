@@ -26,7 +26,7 @@ class SubCategoryInline(admin.TabularInline,TranslationInlineModelAdmin):
 
 
 @admin.register(Category)
-class ProductAdmin(TranslationAdmin):
+class CategoryAdmin(TranslationAdmin):
     inlines = [SubCategoryInline]
 
     class Media:

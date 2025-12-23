@@ -105,10 +105,10 @@ class ProductListSerializer(serializers.ModelSerializer):
         ]
 
     def get_avg_rating(self, obj):
-        return obj.get_avg_rating()  # или ваша логика
+        return obj.get_avg_rating()
 
     def get_count_people(self, obj):
-        return obj.get_count_people()  # или ваша логика
+        return obj.get_count_people()
 
 
 
